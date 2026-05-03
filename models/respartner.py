@@ -4,8 +4,8 @@ class ResPartner(models.Model):
     _inherit = 'res.partner'
 
     priority = fields.Selection(
-        [('low', 'Low'), ('medium', 'Medium'), ('high', 'High')],
+        [('low', 'Low'), ('normal', 'Normal'), ('high', 'High'), ('urgent', 'Urgent')],
         string='Priority',
-        default='medium',
+        default='normal',
         help='Set the priority level for this contact.'
     )
