@@ -7,8 +7,6 @@
         This module allows users to set a priority level (Low, Medium, High, Urgent) 
         for each contact, appearing as stars on the contact form.
     """,
-    'category': 'Tools',
-    'author': 'Yohana',
     'depends': ['base', 'contacts'],  # CRITICAL: Ensures 'contacts' is installed first
     'data': [
         'views/views.xml',  # Loads your XML UI changes

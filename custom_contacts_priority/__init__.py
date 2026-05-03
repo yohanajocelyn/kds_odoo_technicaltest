@@ -1,0 +1,1 @@
+from .custom_contacts_priority import models
