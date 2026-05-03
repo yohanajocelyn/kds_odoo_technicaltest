@@ -1,0 +1,14 @@
+<odoo>
+    <record id="view_sale_order_form_inherit_priority" model="ir.ui.view">
+        <field name="name">sale.order.form.priority</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='partner_id']" position="after">
+                <group>
+                    <field name="customer_priority" string="Priority"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>
