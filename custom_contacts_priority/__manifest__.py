@@ -9,7 +9,7 @@
     """,
     'depends': ['base', 'contacts'],  # CRITICAL: Ensures 'contacts' is installed first
     'data': [
-        'views/views.xml',  # Loads your XML UI changes
+        'views/contacts_views.xml',  # Loads your XML UI changes
     ],
     'installable': True,
     'application': True,
