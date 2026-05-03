@@ -1,1 +1,1 @@
-from ...models import respartner
+from . import respartner
