@@ -1,6 +1,6 @@
 from odoo import models, fields
 
-class SalesOrder(models.Model):
+class SaleOrder(models.Model):
     _inherit = 'sale.order'
 
     customer_priority = fields.Selection(

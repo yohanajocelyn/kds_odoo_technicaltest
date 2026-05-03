@@ -7,10 +7,11 @@
         This module allows users to set a priority level (Low, Medium, High, Urgent) 
         for each contact, appearing as stars on the contact form.
     """,
-    'depends': ['base', 'contacts', 'sale'],  # Ensures 'contacts' is installed first
+    'depends': ['base', 'contacts', 'sale'],  # Ensures the necessary modules are installed first
+    # Where to add new view files
     'data': [
-        'views/contacts_views.xml',  # Loads your XML UI changes
-        'views/sales_order_views.xml',
+        'views/contacts_views.xml',
+        'views/sale_order_views.xml',
     ],
     'installable': True,
     'application': True,
