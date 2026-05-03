@@ -1,1 +1,1 @@
-from . import custom_contacts
+from . import respartner
